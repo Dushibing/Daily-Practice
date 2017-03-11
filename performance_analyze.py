@@ -14,6 +14,7 @@ def insertion_sort(data):
 
 from bisect import bisect_left
 
+#improve funtion test 
 def insert_value(array, value):
 	i = bisect_left(array, value)
 	array.insert(i, value)
